@@ -1,6 +1,6 @@
 import streamlit as st
 import pathlib
-matplotlib==1.5.1
+py -m pip install -r requirements.txt
 import plotly.express as px
 import platform
 from fastai.vision.all import *
