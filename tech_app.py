@@ -1,8 +1,7 @@
 import streamlit as st
 import pathlib
-pip plotly
-import plotly.express as px
 matplotlib==1.5.1
+import plotly.express as px
 import platform
 from fastai.vision.all import *
 
