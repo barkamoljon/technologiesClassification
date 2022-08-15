@@ -31,4 +31,5 @@ if file is not None:
       #plotting
       fig = px.bar(x=probs*100, y=model.dls.vocab)
       st.plotly_chart(fig)
-
+else:
+    print("Iltimos, modelga  mos rasm yuklang")
