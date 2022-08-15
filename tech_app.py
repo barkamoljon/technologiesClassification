@@ -1,6 +1,6 @@
 import streamlit as st
 import pathlib
-import plotly.express as px
+import plotly from express as px
 from fastai.vision.all import *
 
 temb = pathlib.PosixPath
@@ -8,7 +8,7 @@ plt = platform.system()
 if plt == 'Linux' : pathlib.WindowsPath = pathlib.PosixPath
 
 # title
-st.title("Turli texnologiyalarni(telefonlar, soatlar va qurol-aslahalarni) klassifikatsiya qiluvchi model")
+st.title("Texnologiyalarni(telefonlar, soatlar va qurol-aslahalarni) klassifikatsiya qiluvchi model")
 
 # rasmni joylash
 file = st.file_uploader('Rasm yuklash', type=(['png','jpg','jpeg','gif','svg']))
