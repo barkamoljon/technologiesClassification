@@ -1,2 +1,2 @@
-py -m pip freeze > requirements.txt
-py -m pip install -r requirements.txx
+plotly == 5.10.0
+fastai==2.7.9
