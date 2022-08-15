@@ -2,6 +2,7 @@ import streamlit as st
 import pathlib
 pip install plotly
 import plotly.express as px
+matplotlib==1.5.1
 import platform
 from fastai.vision.all import *
 
