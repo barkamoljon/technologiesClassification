@@ -1,7 +1,5 @@
 import streamlit as st
 import pathlib
-py -m pip freeze > requirements.txt
-py -m pip install -r requirements.txt
 import plotly.express as px
 import platform
 from fastai.vision.all import *
