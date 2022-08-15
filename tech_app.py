@@ -1,6 +1,6 @@
 import streamlit as st
 import pathlib
-import plotly from express as px
+import plotly.express as px
 from fastai.vision.all import *
 
 temb = pathlib.PosixPath
