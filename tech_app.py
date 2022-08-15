@@ -1,6 +1,6 @@
 import streamlit as st
 import pathlib
-pip install plotly
+!pip install plotly
 import plotly.express as px
 import platform
 from fastai.vision.all import *
