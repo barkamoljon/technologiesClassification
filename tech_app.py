@@ -1,8 +1,7 @@
 import streamlit as st
 import pathlib
 import plotly.express as px
-pip uninstall plotly 
-python -m pip install plotly
+conda install -c https://conda.anaconda.org/plotly plotly
 import platform
 from fastai.vision.all import *
 
