@@ -4,7 +4,6 @@ import plotly.express as px
 import platform
 from fastai.vision.all import *
 
-
 plt = platform.system()
 if plt == 'Linux' : pathlib.WindowsPath = pathlib.PosixPath
 
@@ -12,7 +11,7 @@ if plt == 'Linux' : pathlib.WindowsPath = pathlib.PosixPath
 st.title("Texnologiyalarni(telefonlar, soatlar va qurol-aslahalarni) klassifikatsiya qiluvchi model")
 
 # rasmni joylash
-file = st.file_uploader('Rasm yuklash', type=(['png','jpg','jpeg','gif','svg']))
+file = st.file_uploader('Rasm yuklash', type=['png','jpg','jpeg','gif','svg'])
 
 if file is not None:
     img = Image.open(file)
