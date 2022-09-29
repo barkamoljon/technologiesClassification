@@ -1,2 +1,3 @@
 # technologiesClassification
-Technologies Classification
+A model that classifies phones, watches, and weapons
+
