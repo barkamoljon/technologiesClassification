@@ -8,14 +8,14 @@ plt = platform.system()
 if plt == 'Linux' : pathlib.WindowsPath = pathlib.PosixPath
 
 # title
-st.title("Texnologiyalarni(telefonlar, soatlar va qurol-aslahalarni) klassifikatsiya qiluvchi model")
+st.title("A model for classifying technologies (phones, watches and weapons).")
 
 # rasmni joylash
-file = st.file_uploader('Rasm yuklash', type=(['png','jpg','jpeg','gif','svg','webp']))
+file = st.file_uploader('Upload image', type=(['png','jpg','jpeg','gif','svg','webp']))
 
 if file is not None:
     img = Image.open(file)
-    st.image(img, caption = 'Yuklangan rasm')
+    st.image(img, caption = 'Uploaded image')
     if file:
       #st.image(file)
       #PIL convert
